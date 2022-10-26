@@ -1,3 +1,7 @@
+# File used by github actions to stop re-commit of data in the event there is no changes to dns records
+no-dns-change.txt
+
+
 # Development environmment variables
 .env
 

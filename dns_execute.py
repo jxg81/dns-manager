@@ -105,8 +105,12 @@ def main():
         target_name_server_state: list[pyrkbun.dns] = get_target_name_server_state(domain)
         current_name_server_state: list[pyrkbun.dns] = get_current_name_server_state(domain)
         
+        # Exit script and stop any changes if there are no updates detected to DNS records.
         if target_record_state == current_record_state and target_name_server_state == current_name_server_state:
-            sys.exit('nothing to do')
+            print('No Changes To DNS Records Detected')
+            with open('no-dns-change.txt', 'a') as file:
+                file.write(f'{str(datetime.now(timezone.utc))}')
+            sys.exit(0)
         
         target_record_state.extend(target_name_server_state)
         current_record_state.extend(current_name_server_state)
