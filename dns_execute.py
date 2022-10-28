@@ -98,6 +98,8 @@ def write_results(domain: str, created: list[pyrkbun.dns], deleted: list[pyrkbun
                     results.write(f'{edit_record.record_type},{edit_record.content},{edit_record.name},{edit_record.ttl},{edit_record.prio},{edit_record.record_id}\n')
 
 def main():
+    up_to_date_count = 0
+    
     for domain in DOMAINS:
         target_record_state: list[pyrkbun.dns] = get_target_record_state(domain)
         current_record_state: list[pyrkbun.dns] = get_current_record_state(domain)
@@ -105,12 +107,12 @@ def main():
         target_name_server_state: list[pyrkbun.dns] = get_target_name_server_state(domain)
         current_name_server_state: list[pyrkbun.dns] = get_current_name_server_state(domain)
         
-        # Exit script and stop any changes if there are no updates detected to DNS records.
+        # Exit loop and stop any changes if there are no updates detected to DNS records.
         if target_record_state == current_record_state and target_name_server_state == current_name_server_state:
-            print('No Changes To DNS Records Detected')
-            with open('no-dns-change.txt', 'a') as file:
+            print(f'No Changes To DNS Records Detected for Domain {domain}')
+            with open('./domains/{domain}/no-dns-change.txt', 'w') as file:
                 file.write(f'{str(datetime.now(timezone.utc))}')
-            sys.exit(0)
+            continue
         
         target_record_state.extend(target_name_server_state)
         current_record_state.extend(current_name_server_state)
@@ -120,5 +122,15 @@ def main():
         edited_records:  list[pyrkbun.dns] = edit_records(target_record_state, current_record_state)
         write_results(domain, created_records, deleted_records, edited_records, current_record_state)
 
+    for domain in DOMAINS:
+        up_to_date_count += 1 if os.path.exists(f'./domains/{domain}/no-dns-change.txt') else 0
+        os.remove(f'./domains/{domain}/no-dns-change.txt')
+        
+    if len(os.listdir('./domains')) == up_to_date_count:
+        print('NO_COMMIT')
+    else:
+        print('COMMIT_REQUIRED')
+        
 if __name__ == "__main__":
     main()
+    
