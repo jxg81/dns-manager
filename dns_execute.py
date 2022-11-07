@@ -1,6 +1,5 @@
 import os
 import csv
-import sys
 
 import pyrkbun
 
@@ -50,7 +49,7 @@ def create_records(target_record_state: list[pyrkbun.dns]) -> list[pyrkbun.dns]:
     records_to_create: list [pyrkbun.dns] = [record for record in target_record_state if record.record_id == '' or record.record_id == 'None']
     for record in records_to_create:
         result: dict = record.create()
-        print(f'CREATE [{record.record_type}, {record.content}, {record.name}, {record.record_id}] RESULT: {result}')
+        #print(f'CREATE [{record.record_type}, {record.content}, {record.name}, {record.record_id}] RESULT: {result}')
     return records_to_create
 
 def delete_records(target_record_state: list[pyrkbun.dns], current_record_state: list[pyrkbun.dns]) -> list[pyrkbun.dns]:
@@ -61,7 +60,7 @@ def delete_records(target_record_state: list[pyrkbun.dns], current_record_state:
     records_to_delete: list[pyrkbun.dns] = [record for record in current_record_state if record.record_id not in retain_record_ids]
     for record in records_to_delete:
         result = record.delete()
-        print(f'DELETE [{record.record_type}, {record.content}, {record.name}, {record.record_id}] RESULT: {result}')
+        #print(f'DELETE [{record.record_type}, {record.content}, {record.name}, {record.record_id}] RESULT: {result}')
     return records_to_delete
 
 def edit_records(target_record_state: list[pyrkbun.dns], current_record_state: list[pyrkbun.dns]) -> list[pyrkbun.dns]:
@@ -74,7 +73,7 @@ def edit_records(target_record_state: list[pyrkbun.dns], current_record_state: l
                     records_to_edit.append(target_record)
     for record in records_to_edit:
         result = record.update()
-        print(f'EDIT [{record.record_type}, {record.content}, {record.name}, {record.record_id}] RESULT: {result}')
+        #print(f'EDIT [{record.record_type}, {record.content}, {record.name}, {record.record_id}] RESULT: {result}')
     return records_to_edit
 
 def write_results(domain: str, created: list[pyrkbun.dns], deleted: list[pyrkbun.dns], edited: list[pyrkbun.dns], current: list[pyrkbun.dns]) -> None:
@@ -109,7 +108,7 @@ def main():
         
         # Exit loop and stop any changes if there are no updates detected to DNS records.
         if target_record_state == current_record_state and target_name_server_state == current_name_server_state:
-            print(f'No Changes To DNS Records Detected for Domain {domain}')
+            #print(f'No Changes To DNS Records Detected for Domain {domain}')
             with open('./domains/{domain}/no-dns-change.txt', 'w') as file:
                 file.write(f'{str(datetime.now(timezone.utc))}')
             continue
