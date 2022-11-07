@@ -45,5 +45,5 @@ jobs:
       run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git commit -m "update ids"
+          git commit -a -m "update ids"
           git push
