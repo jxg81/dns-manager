@@ -1,7 +1,4 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
-
-name: Implement Updates
+name: Execute DNS Updates
 
 on:
   push:
@@ -30,16 +27,16 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Execute script
+    - name: Update Porkbun DNS Records
       env:
         PYRK_API_KEY: ${{ secrets.PYRK_API_KEY }}
         PYRK_API_SECRET_KEY: ${{ secrets.PYRK_API_SECRET_KEY }}
         PYRK_RATE: '3'
         PYRK_RETRIES: '2'
         PYTHONPATH: ${{ github.workspace }}
-# TODO: Need to work out how to set env and then read with 'if' for commit
       run: |
         echo "EXECUTE_RESULT=$(python dns_execute.py)" >> $GITHUB_ENV
+    # Check if a commit is required based on updates to the DNS records and run commit
     - name: Commit Updates
       if: ${{env.EXECUTE_RESULT == 'COMMIT_REQUIRED'}}
       run: |
