@@ -11,8 +11,6 @@ CNAME,autodiscover.outlook.com,autodiscover,3600,0,270053468
 MX,zphyrs-com.mail.protection.outlook.com,,3600,0,270053470
 SRV,1 5061 sipfed.online.lync.com,_sipfederationtls._tcp,3600,100,270053473
 SRV,1 443 sipdir.online.lync.com,_sip._tls,3600,100,270053474
-TXT,V0TlHvSsVsuhHORt68UV7U-l_zhMCTj16AIbnrD5NN4,_acme-challenge,600,0,270053485
-TXT,RbhDm6MX74YhsDvNvjbzfcGsSkfl1p1Mvd_klKSzS9c,_acme-challenge,600,0,270053486
+TXT,retestit,,3600,0,272810279
 TXT,v=spf1 include:spf.protection.outlook.com -all,,3600,0,270053488
 TXT,MS=ms90999716,,3600,0,270053490
-TXT,retestit,,3600,0
