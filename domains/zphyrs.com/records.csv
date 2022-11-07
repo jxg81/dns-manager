@@ -15,4 +15,4 @@ TXT,V0TlHvSsVsuhHORt68UV7U-l_zhMCTj16AIbnrD5NN4,_acme-challenge,600,0,270053485
 TXT,RbhDm6MX74YhsDvNvjbzfcGsSkfl1p1Mvd_klKSzS9c,_acme-challenge,600,0,270053486
 TXT,v=spf1 include:spf.protection.outlook.com -all,,3600,0,270053488
 TXT,MS=ms90999716,,3600,0,270053490
-TXT,somethingnew,,3600,0
+TXT,somethingelse,,3600,0

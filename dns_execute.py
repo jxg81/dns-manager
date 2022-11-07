@@ -124,7 +124,8 @@ def main():
 
     for domain in DOMAINS:
         up_to_date_count += 1 if os.path.exists(f'./domains/{domain}/no-dns-change.txt') else 0
-        os.remove(f'./domains/{domain}/no-dns-change.txt')
+        if os.path.exists(f'./domains/{domain}/no-dns-change.txt'):
+         os.remove(f'./domains/{domain}/no-dns-change.txt')
         
     if len(os.listdir('./domains')) == up_to_date_count:
         print('NO_COMMIT')
