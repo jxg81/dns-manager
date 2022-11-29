@@ -8,9 +8,9 @@ CNAME,enterpriseregistration.windows.net,enterpriseregistration,3600,0,270053440
 CNAME,enterpriseenrollment.manage.microsoft.com,enterpriseenrollment,3600,0,270053450
 CNAME,pixie.porkbun.com,*,600,0,270053451
 CNAME,autodiscover.outlook.com,autodiscover,3600,0,270053468
+CNAME,cname.vercel-dns.com,dlp,600,0,277571253
 MX,zphyrs-com.mail.protection.outlook.com,,3600,0,270053470
 SRV,1 5061 sipfed.online.lync.com,_sipfederationtls._tcp,3600,100,270053473
 SRV,1 443 sipdir.online.lync.com,_sip._tls,3600,100,270053474
 TXT,v=spf1 include:spf.protection.outlook.com -all,,3600,0,270053488
 TXT,MS=ms90999716,,3600,0,270053490
-CNAME,cname.vercel-dns.com,dlp,600,0
