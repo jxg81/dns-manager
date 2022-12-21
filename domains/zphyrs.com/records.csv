@@ -2,6 +2,7 @@ record_type,content,name,ttl,prio,record_id
 A,192.168.250.150,labtop.home,600,0,270053409
 A,202.171.171.27,home,600,0,270053415
 A,10.0.0.1,nix.lab,600,0,278899041
+CNAME,dev-57414622.customdomains.okta.com,login,600,0,282613279
 CNAME,sipdir.online.lync.com,sip,3600,0,270053436
 CNAME,webdir.online.lync.com,lyncdiscover,3600,0,270053439
 CNAME,enterpriseregistration.windows.net,enterpriseregistration,3600,0,270053440
@@ -11,7 +12,6 @@ CNAME,cname.vercel-dns.com,dlp,600,0,277571253
 MX,zphyrs-com.mail.protection.outlook.com,,3600,0,270053470
 SRV,1 5061 sipfed.online.lync.com,_sipfederationtls._tcp,3600,100,270053473
 SRV,1 443 sipdir.online.lync.com,_sip._tls,3600,100,270053474
+TXT,_V_xQfnGGUYM__Q80TrofoH485TJdwJpZQMzjKQTwgY,_acme-challenge.login,600,0,282613254
 TXT,v=spf1 include:spf.protection.outlook.com -all,,3600,0,270053488
 TXT,MS=ms90999716,,3600,0,270053490
-TXT,_V_xQfnGGUYM__Q80TrofoH485TJdwJpZQMzjKQTwgY,_acme-challenge.login.zphyrs.com,600,0
-CNAME,dev-57414622.customdomains.okta.com,login,600,0
