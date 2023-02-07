@@ -15,3 +15,7 @@ SRV,1 443 sipdir.online.lync.com,_sip._tls,3600,100,270053474
 TXT,_V_xQfnGGUYM__Q80TrofoH485TJdwJpZQMzjKQTwgY,_acme-challenge.login,600,0,282613254
 TXT,v=spf1 include:spf.protection.outlook.com -all,,3600,0,270053488
 TXT,MS=ms90999716,,3600,0,270053490
+SRV,88 labtop.zphyrs.com,_kerberos._udp.ZPHYRS.COM.,1,0
+SRV,88 labtop.zphyrs.com,_kerberos._tcp.ZPHYRS.COM.,1,0
+SRV,749 labtop.zphyrs.com,_kerberos-adm._tcp.ZPHYRS.COM.,1,0
+SRV,464 labtop.zphyrs.com,_kpasswd._udp.ZPHYRS.COM.,1,0
