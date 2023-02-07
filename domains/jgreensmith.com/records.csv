@@ -1,0 +1,6 @@
+record_type,content,name,ttl,prio,record_id
+A,10.0.0.1,krb-test,600,1
+SRV,0 88 krb-test.jgreensmith.com,_kerberos._udp,600,1
+SRV,0 88 krb-test.jgreensmith.com,_kerberos._tcp,600,1
+SRV,0 749 krb-test.jgreensmith.com,_kerberos-adm._tcp,600,1
+SRV,0 464 krb-test.jgreensmith.com,_kpasswd._udp,600,1
