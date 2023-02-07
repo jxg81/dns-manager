@@ -1,6 +1,6 @@
 record_type,content,name,ttl,prio,record_id
+A,192.168.250.150,labtop,600,0,294906141
 A,192.168.250.150,labtop.home,600,0,270053409
-A,192.168.250.150,labtop,600,0
 A,202.171.171.27,home,600,0,270053415
 A,10.0.0.1,nix.lab,600,0,278899041
 CNAME,dev-57414622.customdomains.okta.com,login,600,0,282613279
@@ -11,12 +11,12 @@ CNAME,enterpriseenrollment.manage.microsoft.com,enterpriseenrollment,3600,0,2700
 CNAME,autodiscover.outlook.com,autodiscover,3600,0,270053468
 CNAME,cname.vercel-dns.com,dlp,600,0,277571253
 MX,zphyrs-com.mail.protection.outlook.com,,3600,0,270053470
+SRV,0 88 labtop.zphyrs.com,_kerberos._udp,600,1,294906148
+SRV,0 88 labtop.zphyrs.com,_kerberos._tcp,600,1,294906168
+SRV,0 749 labtop.zphyrs.com,_kerberos-adm._tcp,600,1,294906173
+SRV,0 464 labtop.zphyrs.com,_kpasswd._udp,600,1,294906193
 SRV,1 5061 sipfed.online.lync.com,_sipfederationtls._tcp,3600,100,270053473
 SRV,1 443 sipdir.online.lync.com,_sip._tls,3600,100,270053474
 TXT,_V_xQfnGGUYM__Q80TrofoH485TJdwJpZQMzjKQTwgY,_acme-challenge.login,600,0,282613254
 TXT,v=spf1 include:spf.protection.outlook.com -all,,3600,0,270053488
 TXT,MS=ms90999716,,3600,0,270053490
-SRV,88 labtop.zphyrs.com,_kerberos._udp,1,0
-SRV,88 labtop.zphyrs.com,_kerberos._tcp,1,0
-SRV,749 labtop.zphyrs.com,_kerberos-adm._tcp,1,0
-SRV,464 labtop.zphyrs.com,_kpasswd._udp,1,0

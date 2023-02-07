@@ -43,3 +43,15 @@ __DELETED__
 No Records Deleted
 __EDITED__
 No Records Edited
+RESULTS OF OPERATION COMPLETED AT: 2023-02-07 04:24:45.579754+00:00
+__CREATED__
+A,192.168.250.150,labtop,600,0,294906141
+SRV,0 88 labtop.zphyrs.com,_kerberos._udp,600,1,294906148
+SRV,0 88 labtop.zphyrs.com,_kerberos._tcp,600,1,294906168
+SRV,0 749 labtop.zphyrs.com,_kerberos-adm._tcp,600,1,294906173
+SRV,0 464 labtop.zphyrs.com,_kpasswd._udp,600,1,294906193
+__DELETED__
+TXT,qMdBlwto2tWmCOsM7hlBMujJw1xsNV3ASuxKE9CSGlM,_acme-challenge,600,0,289043406
+TXT,dYey9C6L53OEstVwM8COSReV5qkGtVvacBKyGV2Z7ok,_acme-challenge,600,0,289043407
+__EDITED__
+No Records Edited
