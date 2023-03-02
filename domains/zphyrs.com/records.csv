@@ -2,7 +2,7 @@ record_type,content,name,ttl,prio,record_id
 A,192.168.250.150,labtop,600,0,294906141
 A,192.168.250.150,labtop.home,600,0,270053409
 A,202.171.171.27,home,600,0,270053415
-A,10.0.0.7,nix.lab,600,0,278899041
+A,10.0.0.6,nix.lab,600,0,278899041
 CNAME,dev-57414622.customdomains.okta.com,login,600,0,282613279
 CNAME,sipdir.online.lync.com,sip,3600,0,270053436
 CNAME,webdir.online.lync.com,lyncdiscover,3600,0,270053439
