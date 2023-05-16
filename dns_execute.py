@@ -109,7 +109,7 @@ def main():
         # Exit loop and stop any changes if there are no updates detected to DNS records.
         if target_record_state == current_record_state and target_name_server_state == current_name_server_state:
             #print(f'No Changes To DNS Records Detected for Domain {domain}')
-            with open('./domains/{domain}/no-dns-change.txt', 'w') as file:
+            with open(f'./domains/{domain}/no-dns-change.txt', 'w') as file:
                 file.write(f'{str(datetime.now(timezone.utc))}')
             continue
         
