@@ -1,2 +1,3 @@
 record_type,content,name,ttl,prio,record_id
 TXT,v=spf1 -all,,600,0,257271489
+CNAME,35602.288259220078329856.h.p.zpa-app.net,nix,600,0
