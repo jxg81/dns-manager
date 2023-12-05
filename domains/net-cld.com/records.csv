@@ -1,4 +1,3 @@
 record_type,content,name,ttl,prio,record_id
-TXT,s5fyxdKM3ejiTGzbbaUFPCxpnHl_OToEkhLxKE5YSec,_acme-challenge,600,0,313028165
-TXT,upgQ0QF6zHHUTee1RfcmEV9DHo1r3d2qZ--HjyBEfAA,_acme-challenge,600,0,313028166
+CNAME,35602.288259220078329856.h.p.zpa-app.net,nix,600,0,364307040
 TXT,v=spf1 -all,,600,0,257271489
