@@ -3,6 +3,7 @@ A,192.168.250.150,labtop,600,0,294906141
 A,192.168.250.150,labtop.home,600,0,270053409
 A,202.171.171.27,home,600,0,270053415
 A,15.206.177.33,vpn,600,0,368421342
+A,15.206.177.33,teamwiki,600,0,369285874
 CNAME,dev-57414622.customdomains.okta.com,login,600,0,282613279
 CNAME,sipdir.online.lync.com,sip,3600,0,270053436
 CNAME,webdir.online.lync.com,lyncdiscover,3600,0,270053439
@@ -23,4 +24,3 @@ SRV,1 443 sipdir.online.lync.com,_sip._tls,3600,100,270053474
 TXT,_V_xQfnGGUYM__Q80TrofoH485TJdwJpZQMzjKQTwgY,_acme-challenge.login,600,0,282613254
 TXT,v=spf1 include:spf.protection.outlook.com -all,,3600,0,270053488
 TXT,MS=ms90999716,,3600,0,270053490
-A,15.206.177.33,teamwiki,600,0
