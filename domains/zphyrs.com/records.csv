@@ -13,10 +13,6 @@ CNAME,cname.vercel-dns.com,dlp,600,0,277571253
 CNAME,288259220078329922.288259220078329856.h.p.zpa-app.net,portal,600,0,322662838
 CNAME,35602.288259220078329856.h.p.zpa-app.net,nix,600,0,364299761
 MX,zphyrs-com.mail.protection.outlook.com,,3600,0,270053470
-SRV,0 88 labtop.zphyrs.com,_kerberos._udp,600,1,294906148
-SRV,0 88 labtop.zphyrs.com,_kerberos._tcp,600,1,294906168
-SRV,0 749 labtop.zphyrs.com,_kerberos-adm._tcp,600,1,294906173
-SRV,0 464 labtop.zphyrs.com,_kpasswd._udp,600,1,294906193
 SRV,1 5061 sipfed.online.lync.com,_sipfederationtls._tcp,3600,100,270053473
 SRV,1 443 sipdir.online.lync.com,_sip._tls,3600,100,270053474
 TXT,_V_xQfnGGUYM__Q80TrofoH485TJdwJpZQMzjKQTwgY,_acme-challenge.login,600,0,282613254
