@@ -106,3 +106,13 @@ A,192.168.250.150,labtop,600,0,294906141
 A,192.168.250.150,labtop.home,600,0,270053409
 __EDITED__
 No Records Edited
+RESULTS OF OPERATION COMPLETED AT: 2023-12-19 12:19:31.900520+00:00
+__CREATED__
+No Records Created
+__DELETED__
+SRV,0 88 labtop.zphyrs.com,_kerberos._udp,600,1,294906148
+SRV,0 88 labtop.zphyrs.com,_kerberos._tcp,600,1,294906168
+SRV,0 749 labtop.zphyrs.com,_kerberos-adm._tcp,600,1,294906173
+SRV,0 464 labtop.zphyrs.com,_kpasswd._udp,600,1,294906193
+__EDITED__
+No Records Edited
