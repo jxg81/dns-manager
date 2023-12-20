@@ -116,3 +116,10 @@ SRV,0 749 labtop.zphyrs.com,_kerberos-adm._tcp,600,1,294906173
 SRV,0 464 labtop.zphyrs.com,_kpasswd._udp,600,1,294906193
 __EDITED__
 No Records Edited
+RESULTS OF OPERATION COMPLETED AT: 2023-12-20 14:07:44.535026+00:00
+__CREATED__
+A,202.171.171.27,vault,600,0,371412374
+__DELETED__
+No Records Deleted
+__EDITED__
+No Records Edited
