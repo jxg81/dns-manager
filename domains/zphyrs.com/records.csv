@@ -1,4 +1,5 @@
 record_type,content,name,ttl,prio,record_id
+A,15.206.177.33,mobilevpn,600,0,386399762
 A,202.171.171.27,home,600,0,270053415
 A,202.171.171.27,vault,600,0,371412374
 A,15.206.177.33,vpn,600,0,368421342
@@ -19,4 +20,3 @@ SRV,1 443 sipdir.online.lync.com,_sip._tls,3600,100,270053474
 TXT,_V_xQfnGGUYM__Q80TrofoH485TJdwJpZQMzjKQTwgY,_acme-challenge.login,600,0,282613254
 TXT,v=spf1 include:spf.protection.outlook.com -all,,3600,0,270053488
 TXT,MS=ms90999716,,3600,0,270053490
-A,15.206.177.33,mobilevpn,600,0
