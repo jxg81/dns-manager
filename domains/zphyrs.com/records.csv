@@ -6,6 +6,7 @@ A,15.206.177.33,vpn,600,0,368421342
 A,15.206.177.33,teamwiki,600,0,369285874
 CNAME,dev-57414622.customdomains.okta.com,login,600,0,282613279
 CNAME,73762.288259220078329856.h.p.zpa-app.net.,ramsay-browser,600,0,408155186
+CNAME,73764.288259220078329856.h.p.zpa-app.net.,ramsay-iso,600,0
 CNAME,sipdir.online.lync.com,sip,3600,0,270053436
 CNAME,webdir.online.lync.com,lyncdiscover,3600,0,270053439
 CNAME,enterpriseregistration.windows.net,enterpriseregistration,3600,0,270053440
