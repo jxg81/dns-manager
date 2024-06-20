@@ -15,6 +15,7 @@ CNAME,cname.vercel-dns.com,dlp,600,0,277571253
 CNAME,288259220078329922.288259220078329856.h.p.zpa-app.net,portal,600,0,322662838
 CNAME,288259220078329928.288259220078329856.pra.p.zpa-app.net,priv-portal,600,0,395091433
 CNAME,35602.288259220078329856.h.p.zpa-app.net,nix,600,0,364299761
+CNAME,73762.288259220078329856.h.p.zpa-app.net.,ramsay-browser,600,0
 MX,zphyrs-com.mail.protection.outlook.com,,3600,0,270053470
 SRV,1 5061 sipfed.online.lync.com,_sipfederationtls._tcp,3600,100,270053473
 SRV,1 443 sipdir.online.lync.com,_sip._tls,3600,100,270053474
