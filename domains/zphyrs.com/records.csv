@@ -10,7 +10,9 @@ CNAME,webdir.online.lync.com,lyncdiscover,3600,0,270053439
 CNAME,enterpriseregistration.windows.net,enterpriseregistration,3600,0,270053440
 CNAME,enterpriseenrollment.manage.microsoft.com,enterpriseenrollment,3600,0,270053450
 CNAME,autodiscover.outlook.com,autodiscover,3600,0,270053468
+CNAME,73766.288259220078329856.h.p.zpa-app.net,ramsay-iso,600,0,408161906
 CNAME,26900.288259220078329856.h.p.zpa-app.net,github,600,0,322580605
+CNAME,73770.288259220078329856.h.p.zpa-app.net,ramsay-browser,600,0,408161970
 CNAME,cname.vercel-dns.com,dlp,600,0,277571253
 CNAME,288259220078329922.288259220078329856.h.p.zpa-app.net,portal,600,0,322662838
 CNAME,288259220078329928.288259220078329856.pra.p.zpa-app.net,priv-portal,600,0,395091433
@@ -21,5 +23,3 @@ SRV,1 443 sipdir.online.lync.com,_sip._tls,3600,100,270053474
 TXT,_V_xQfnGGUYM__Q80TrofoH485TJdwJpZQMzjKQTwgY,_acme-challenge.login,600,0,282613254
 TXT,v=spf1 include:spf.protection.outlook.com -all,,3600,0,270053488
 TXT,MS=ms90999716,,3600,0,270053490
-CNAME,73766.288259220078329856.h.p.zpa-app.net,ramsay-iso,600,0
-CNAME,73770.288259220078329856.h.p.zpa-app.net,ramsay-browser,600,0
