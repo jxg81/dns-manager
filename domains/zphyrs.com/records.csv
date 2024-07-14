@@ -4,6 +4,7 @@ A,202.171.171.27,home,600,0,270053415
 A,202.171.171.27,vault,600,0,371412374
 A,15.206.177.33,vpn,600,0,368421342
 A,15.206.177.33,teamwiki,600,0,369285874
+CNAME,home.zphyrs.com,craft.home,600,0
 CNAME,dev-57414622.customdomains.okta.com,login,600,0,282613279
 CNAME,sipdir.online.lync.com,sip,3600,0,270053436
 CNAME,webdir.online.lync.com,lyncdiscover,3600,0,270053439
