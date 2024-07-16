@@ -14,7 +14,6 @@ CNAME,autodiscover.outlook.com,autodiscover,3600,0,270053468
 CNAME,74260.288259220078329856.h.p.zpa-app.net,ipinfo,100,0,409919923
 CNAME,cname.vercel-dns.com,dlp,600,0,277571253
 CNAME,288259220078329922.288259220078329856.h.p.zpa-app.net,portal,600,0,322662838
-CNAME,craft.home.zphyrs.com,craft,600,0,413776845
 CNAME,288259220078329928.288259220078329856.pra.p.zpa-app.net,priv-portal,600,0,395091433
 MX,zphyrs-com.mail.protection.outlook.com,,3600,0,270053470
 SRV,1 5061 sipfed.online.lync.com,_sipfederationtls._tcp,3600,100,270053473
