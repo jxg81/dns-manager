@@ -5,3 +5,4 @@ SRV,0 88 krb-test.jgreensmith.com,_kerberos._udp,600,1,294987600
 SRV,0 88 krb-test.jgreensmith.com,_kerberos._tcp,600,1,294987617
 SRV,0 749 krb-test.jgreensmith.com,_kerberos-adm._tcp,600,1,294987645
 SRV,0 464 krb-test.jgreensmith.com,_kpasswd._udp,600,1,294987658
+CNAME,75770.288259220078329856.h.p.zpa-app.net,ipinfo,100,0
