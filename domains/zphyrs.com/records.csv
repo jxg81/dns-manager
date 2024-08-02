@@ -14,6 +14,7 @@ CNAME,enterpriseenrollment.manage.microsoft.com,enterpriseenrollment,3600,0,2700
 CNAME,autodiscover.outlook.com,autodiscover,3600,0,270053468
 CNAME,76690.288259220078329856.h.p.zpa-app.net.,github,600,0,417793900
 CNAME,76692.288259220078329856.h.p.zpa-app.net.,nix,600,0,417793914
+CNAME,76697.288259220078329856.h.p.zpa-app.net.,ipinfo,600,0,417795719
 CNAME,cname.vercel-dns.com,dlp,600,0,277571253
 CNAME,288259220078329922.288259220078329856.h.p.zpa-app.net,portal,600,0,322662838
 CNAME,288259220078329928.288259220078329856.pra.p.zpa-app.net,priv-portal,600,0,395091433
@@ -23,4 +24,3 @@ SRV,1 443 sipdir.online.lync.com,_sip._tls,3600,100,270053474
 TXT,_V_xQfnGGUYM__Q80TrofoH485TJdwJpZQMzjKQTwgY,_acme-challenge.login,600,0,282613254
 TXT,v=spf1 include:spf.protection.outlook.com -all,,3600,0,270053488
 TXT,MS=ms90999716,,3600,0,270053490
-CNAME,76697.288259220078329856.h.p.zpa-app.net.,ipinfo,600,0
