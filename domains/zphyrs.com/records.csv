@@ -6,6 +6,7 @@ A,15.206.177.33,vpn,600,0,368421342
 A,15.206.177.33,teamwiki,600,0,369285874
 CNAME,home.zphyrs.com,craft.home,600,0,413292830
 CNAME,dev-57414622.customdomains.okta.com,login,600,0,282613279
+CNAME,76659.288259220078329856.h.p.zpa-app.net.,syslog,600,0,417728301
 CNAME,sipdir.online.lync.com,sip,3600,0,270053436
 CNAME,webdir.online.lync.com,lyncdiscover,3600,0,270053439
 CNAME,enterpriseregistration.windows.net,enterpriseregistration,3600,0,270053440
@@ -21,4 +22,3 @@ SRV,1 443 sipdir.online.lync.com,_sip._tls,3600,100,270053474
 TXT,_V_xQfnGGUYM__Q80TrofoH485TJdwJpZQMzjKQTwgY,_acme-challenge.login,600,0,282613254
 TXT,v=spf1 include:spf.protection.outlook.com -all,,3600,0,270053488
 TXT,MS=ms90999716,,3600,0,270053490
-CNAME,76659.288259220078329856.h.p.zpa-app.net.,syslog,600,0
