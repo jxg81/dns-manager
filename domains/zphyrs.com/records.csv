@@ -14,10 +14,10 @@ CNAME,enterpriseenrollment.manage.microsoft.com,enterpriseenrollment,3600,0,2700
 CNAME,autodiscover.outlook.com,autodiscover,3600,0,270053468
 CNAME,83868.288268585254518784.h.p.zpa-app.net,altoromutual,600,0,438863760
 CNAME,cname.vercel-dns.com,dlp,600,0,277571253
+CNAME,83888.288268585254518784.h.p.zpa-app.net,altoromutual-bba,600,0,438908362
 MX,zphyrs-com.mail.protection.outlook.com,,3600,0,270053470
 SRV,1 5061 sipfed.online.lync.com,_sipfederationtls._tcp,3600,100,270053473
 SRV,1 443 sipdir.online.lync.com,_sip._tls,3600,100,270053474
 TXT,_V_xQfnGGUYM__Q80TrofoH485TJdwJpZQMzjKQTwgY,_acme-challenge.login,600,0,282613254
 TXT,v=spf1 include:spf.protection.outlook.com -all,,3600,0,270053488
 TXT,MS=ms90999716,,3600,0,270053490
-CNAME,83888.288268585254518784.h.p.zpa-app.net,altoromutual-bba,600,0
