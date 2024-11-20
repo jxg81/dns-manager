@@ -1,2 +1,3 @@
 record_type,content,name,ttl,prio,record_id
 CNAME,288268942810546241.288268942810546176.pra.p.zpa-app.net,portal,600,0,436311477
+CNAME,288268942810546241.288268942810546176.pra.p.zpa-app.net,priv-portal,600,0
